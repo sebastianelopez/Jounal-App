@@ -1,4 +1,4 @@
-# Heroes App
+# Journal App
 
 
 This is my second project with React.
