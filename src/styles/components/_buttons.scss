@@ -34,6 +34,15 @@
     width: 100%;
 }
 
+.btn-borrado{
+    background-color: red;
+    
+    transition: background-color .3s ease;
+    &:hover{
+        background-color: darken($color: red, $amount: 10);
+    }
+}
+
 
 .google-btn {
     cursor: pointer;

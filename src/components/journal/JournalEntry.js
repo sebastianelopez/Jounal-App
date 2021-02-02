@@ -18,7 +18,7 @@ export const JournalEntry = ({id, date, title, body,url}) => {
 
     return (
         <div 
-        className="journal__entry"
+        className="journal__entry animate__animated animate__fadeIn animate__faster"
         onClick={handleEntryClick}
         >
             {
@@ -43,6 +43,7 @@ export const JournalEntry = ({id, date, title, body,url}) => {
                 <span>{noteDate.format('dddd')}</span>
                 <h4>{noteDate.format('D')}</h4>
             </div>
+            
         </div>
     )
 }
